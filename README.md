@@ -1,6 +1,6 @@
 # Summing Up Bot
 
-A text summarizer bot which is voice-enabled and web, url and text based.
+A text summarizer bot which is voice-enabled, web, url and text based.
 
 **Features:**
 * Able to understand voice commands and generate summaries from the Internet related to the query.
