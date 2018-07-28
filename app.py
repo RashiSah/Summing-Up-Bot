@@ -12,7 +12,7 @@ api.add_resource(QueryService, '/news_urls')
 @app.route("/")
 def home():
     return render_template("newlook.html")
-#@app.route("/url1", methods = ['GET','POST'])
+
 @app.route("/index",methods=["POST","GET"])
 def index():
     print "inside app index"
@@ -41,8 +41,6 @@ def reg4():
     text = request.form['input_text']
     print text
     var = summ_from_text(text)
-    print "var"
-    print var
     return render_template("inputtext.html",output_summary=var)
 
 
